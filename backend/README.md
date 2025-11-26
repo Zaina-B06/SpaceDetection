@@ -12,25 +12,28 @@ The application runs using **Streamlit**, allowing users to upload images or cap
 - Shows detection labels + confidence levels  
 
 ## 📦 Installation
+Clone the project:
 
-Clone the repository:
+```bash
 git clone https://github.com/zaina-b06/SpaceDetection.git
 cd SpaceDetection/frontend
+```
 
-Install required libraries:
+Install dependencies:
+```bash
 pip install -r ../requirements.txt
-If your requirements file is in the same folder, simply use:
+```
+If requirements.txt is in the same folder, use:
+```bash
 pip install -r requirements.txt
+```
 
-▶️ Run the Backend
+▶ Run the Backend
+```bash
 streamlit run app.py
-Once it starts, Streamlit will automatically open in your browser.
-If not, visit manually:
-http://localhost:8501
+```
 
 🖼 Output Example
-The model returns an annotated image with bounding boxes & confidence scores.
+- The model returns an annotated image with bounding boxes & confidence scores.
 
-Sample Ouput-
-
-
+![Sample Output](frontend/output.png)

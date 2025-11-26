@@ -11,11 +11,11 @@ Model backend hosted on Streamlit for real-time inference.
 Generates performance metrics and visual results to assess detection effectiveness.
 
 # How it Works
-Data Preparation: Images from simulated space station scenes are annotated with bounding boxes for each safety object.
-Model Training: YOLOv8 is trained on the labeled dataset to recognize and locate multiple classes of safety equipment.
-Model Hosting: The trained model is deployed on Streamlit.
-Falcon Integration: The detection model can connect to the Falcon platform, enabling real-time inference on virtual space station camera feeds.
-Evaluation: Model performance is measured using metrics like accuracy, precision, recall, and mAP.
+-Data Preparation: Images from simulated space station scenes are annotated with bounding boxes for each safety object.
+-Model Training: YOLOv8 is trained on the labeled dataset to recognize and locate multiple classes of safety equipment.
+-Model Hosting: The trained model is deployed on Streamlit.
+-Falcon Integration: The detection model can connect to the Falcon platform, enabling real-time inference on virtual space station camera feeds.
+-Evaluation: Model performance is measured using metrics like accuracy, precision, recall, and mAP.
 
 # Tech Behind It
 Deep Learning: YOLOv8 (Ultralytics) for object detection

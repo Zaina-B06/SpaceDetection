@@ -1,0 +1,6 @@
+train: C:\Users\zaina\Downloads\Hackathon2_scripts\Hackathon2_scripts\dataset\train
+val: C:\Users\zaina\Downloads\Hackathon2_scripts\Hackathon2_scripts\dataset\val
+test: C:\Users\zaina\Downloads\Hackathon2_scripts\Hackathon2_scripts\dataset\test
+nc: 7
+names: ['OxygenTank', 'NitrogenTank', 'FirstAidBox', 'FireAlarm', 'SafetySwitchPanel', 'EmergencyPhone', 'FireExtinguisher']                                         
+

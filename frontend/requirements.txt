@@ -1,5 +1,5 @@
-ultralytics
-gradio
-opencv-python
+streamlit
+ultralytics==8.3.34
+opencv-python-headless
 numpy
-Pillow
+pillow

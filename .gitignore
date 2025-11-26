@@ -1,0 +1,29 @@
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+*.pt
+*.onnx
+*.engine
+*.trt
+runs/
+weights/
+models/*.pt   # optional — if you are storing best.pt in repo, REMOVE this line
+
+# Streamlit configs
+.streamlit/secrets.toml  # DO NOT push secrets

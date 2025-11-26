@@ -36,4 +36,4 @@ streamlit run app.py
 🖼 Output Example
 - The model returns an annotated image with bounding boxes & confidence scores.
 
-![Sample Output](frontend/output.png)
+![Sample Output](backend/output.png)

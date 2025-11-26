@@ -1,4 +1,4 @@
-# SpaceDetection
+# AstroX
 Safety Object Detection (Space Station Challenge)
 This project was developed for Duality AI’s HackAura Hackathon, specifically the Space Station Safety Object Detection Challenge #2. The goal is to train and evaluate a deep learning model that can detect multiple safety-related objects in space station environments.
 
